@@ -7,7 +7,7 @@ class HTTPRequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
         with open('getRecieved.html', 'rb') as file:
             self.wfile.write(file.read())
-        print(self.path)
+        
         # self.wfile.write(b'<html><body><h1>GET request received!</h1></body></html>')
 
     def do_POST(self):
