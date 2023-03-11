@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Account Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+        * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #666;
+}
+
+    </style>
+</head>
+<body>
+	<header>
+		<h1>My Account</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Personal Information</h2>
+			<ul>
+				<li><strong>Name:</strong> {username}</li>
+				<li><strong>Email:</strong> johndoe@example.com</li>
+				<li><strong>Password:</strong> ********</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Account Settings</h2>
+			<p>Account settings go here.</p>
+		</section>
+		<section>
+			<h2>Notifications</h2>
+			<p>Notification settings go here.</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Account</p>
+	</footer>
+</body>
+</html>
